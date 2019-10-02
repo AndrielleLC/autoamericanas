@@ -29,6 +29,6 @@ public class CompraElementMap {
     @FindBy (id = "btn-continue")
     protected WebElement continuarCompra;
 
-    @FindBy (className = "basket-productTitle")
+    @FindBy(xpath = "//h2[@class='basket-productTitle']")
     protected WebElement productTitle;
 }
