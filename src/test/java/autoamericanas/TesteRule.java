@@ -15,11 +15,11 @@ public class TesteRule {
     @Before
     public void beforeCenario(){
         //Chrome
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver/chromedriver.exe");
-        driver = new ChromeDriver();
+        //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver/chromedriver.exe");
+        //driver = new ChromeDriver();
 
-        //System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver/geckodriver.exe");
-        //driver = new FirefoxDriver();
+        System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver/geckodriver.exe");
+        driver = new FirefoxDriver();
 
         driver.manage().window().maximize();
         driver.navigate().to("https://www.americanas.com.br/");
