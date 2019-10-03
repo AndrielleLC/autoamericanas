@@ -1,23 +1,12 @@
 package autoamericanas;
 
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.concurrent.TimeUnit;
 
 public class CompraPage extends CompraElementMap {
 
     public CompraPage(){
         PageFactory.initElements(TesteRule.getDriver(),this);
-    }
-
-    public void selecionarTelefonia() {
-        slctTelefonia.click();
     }
 
     public void pesquisarProduto(){
@@ -31,6 +20,7 @@ public class CompraPage extends CompraElementMap {
     }
 
     public void realizarCompra() {
+
         escolherProduto.click();
 
         String validarProdutoSelecionado = titleWrapper.getText();

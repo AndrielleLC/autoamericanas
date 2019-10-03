@@ -6,8 +6,7 @@ Funcionalidade: Compra produto
   Para adicioná-lo ao carrinho para realizar a compra
 
     Cenário: Pesquisar produtos e validar seu retorno
-      Dado selecionei a opção Telefonia
-      E pesquisei por Iphone 7
+      Dado que pesquisei por Iphone 7
       E uma lista de produtos foi exibida
       Quando eu realizar a compra
       Então o produto deve ser adicionado a minha cesta

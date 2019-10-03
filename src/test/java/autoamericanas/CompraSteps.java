@@ -3,13 +3,7 @@ package autoamericanas;
 import cucumber.api.java.pt.*;
 
 public class CompraSteps {
-    @Dado ("selecionei a opção Telefonia")
-    public void selecionarTelefonia(){
-        CompraPage compraPage = new CompraPage();
-        compraPage.selecionarTelefonia();
-    }
-
-    @E ("pesquisei por Iphone 7")
+    @Dado ("que pesquisei por Iphone 7")
     public void pesquisarProduto(){
         CompraPage compraPage = new CompraPage();
         compraPage.pesquisarProduto();

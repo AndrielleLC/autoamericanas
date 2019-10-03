@@ -4,10 +4,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class CompraElementMap {
-
-    @FindBy (xpath = "//img [@alt='telefonia']")
-    protected WebElement slctTelefonia;
-
     @FindBy (xpath = "//input[@id='h_search-input']")
     protected WebElement input;
 
