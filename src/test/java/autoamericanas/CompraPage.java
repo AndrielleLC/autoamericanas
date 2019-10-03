@@ -32,11 +32,19 @@ public class CompraPage extends CompraElementMap {
     }
 
     public void validarCesta() {
-        try{
-            Thread.sleep(5000);
+        try {
+            synchronized (TesteRule.getDriver()){
+                TesteRule.getDriver().wait(3000);
+            }
+        } catch (InterruptedException e){
+                e.printStackTrace();
         }
-        catch(InterruptedException ie){
-        }
+
+        //try{
+        //    Thread.sleep(5000);
+        //}
+        //catch(InterruptedException ie){
+        //}
 
         String validarCesta = productTitle.getText();
         Assert.assertEquals("Iphone 7 128gb Preto Matte -bra", validarCesta);
