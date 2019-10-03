@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e490e60-b530-4a4f-8125-9640751f443c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/autoamericanas/CompraPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autoamericanas/CompraPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/autoamericanas/TesteRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/autoamericanas/TesteRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/autoamericanas/CompraPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/autoamericanas/CompraPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/autoamericanas/TesteRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/autoamericanas/TesteRule.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,16 +97,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/autoamericanas/CompraPage.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

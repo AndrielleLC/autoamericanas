@@ -21,9 +21,9 @@ public class TesteRule {
         System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver/geckodriver.exe");
         driver = new FirefoxDriver();
 
+        driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.navigate().to("https://www.americanas.com.br/");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @After
