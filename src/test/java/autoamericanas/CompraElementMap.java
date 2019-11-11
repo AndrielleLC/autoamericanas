@@ -13,7 +13,7 @@ public class CompraElementMap {
     @FindBy (xpath = "//h1[@class='h1 page-title']")
     protected WebElement pageTitle;
 
-    @FindBy (xpath = "//img[@alt='iPhone 7 128GB Preto Matte Desbloqueado IOS 10 Wi-fi + 4G Câmera 12MP - Apple']")
+    @FindBy (xpath = "//img[@alt='iPhone 7 32GB Preto Matte Desbloqueado IOS 10 Wi-fi + 4G Câmera 12MP - Apple']")
     protected WebElement escolherProduto;
 
     @FindBy (id = "product-name-default")

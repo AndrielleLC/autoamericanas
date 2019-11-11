@@ -10,6 +10,3 @@ Funcionalidade: Compra produto
       E uma lista de produtos foi exibida
       Quando eu realizar a compra
       Então o produto deve ser adicionado a minha cesta
-
-
-

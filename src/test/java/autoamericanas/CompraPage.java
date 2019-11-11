@@ -24,7 +24,7 @@ public class CompraPage extends CompraElementMap {
         escolherProduto.click();
 
         String validarProdutoSelecionado = titleWrapper.getText();
-        Assert.assertEquals("iPhone 7 128GB Preto Matte Desbloqueado IOS 10 Wi-fi + 4G Câmera 12MP - Apple",
+        Assert.assertEquals("iPhone 7 32GB Preto Matte Desbloqueado IOS 10 Wi-fi + 4G Câmera 12MP - Apple",
                 validarProdutoSelecionado);
 
         clicarComprar.click();
@@ -47,6 +47,6 @@ public class CompraPage extends CompraElementMap {
         //}
 
         String validarCesta = productTitle.getText();
-        Assert.assertEquals("Iphone 7 128gb Preto Matte -bra", validarCesta);
+        Assert.assertEquals("Iphone 7 32gb Preto Matte-bra", validarCesta);
     }
 }
